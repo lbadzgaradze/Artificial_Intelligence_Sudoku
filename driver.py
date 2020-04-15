@@ -17,7 +17,11 @@ for puzzle in [easy1, harder1]:
         sudoku_instance.display(sudoku_instance.infer_assignment())
         print()
     else:
-        print("Problem was not solved by AC3. We should start searching ...")
+        print("Problem was not solved by AC3. Here is how it looks like:",
+              end="\n\n")
+        sudoku_instance.display(sudoku_instance.infer_assignment())
+        print()
+        print("We should start searching ...")
         search_result = backtracking_search(sudoku_instance, mrv, lcv, mac)
         print("Search has been completed successfully.")
         if sudoku_instance.goal_test(search_result):

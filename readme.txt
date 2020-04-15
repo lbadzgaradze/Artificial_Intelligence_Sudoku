@@ -44,7 +44,21 @@ We have the following Sudoku puzzle to solve:
 
 Starting constraint propagation (AC3) algorithm.
 AC3 algorithm was successfully completed.
-Problem was not solved by AC3. We should start searching ...
+Problem was not solved by AC3. Here is how it looks like:
+
+4 1 7 | 3 6 9 | 8 2 5
+. 3 . | . . . | . . .
+. . . | 7 . . | . . .
+------+-------+------
+. 2 . | . . . | . 6 .
+. . . | . 8 . | 4 . .
+. . . | . 1 . | . . .
+------+-------+------
+. . . | 6 . 3 | . 7 .
+5 . . | 2 . . | . . .
+1 . 4 | . . . | . . .
+
+We should start searching ...
 Search has been completed successfully.
 Given constraint satisfaction problem has been successfully solved by backtracking search algorithm. Here it the solution:
 
