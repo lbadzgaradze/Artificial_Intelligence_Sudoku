@@ -27,20 +27,6 @@ class Test(TestCase):
             else:
                 print("\nProblem was not solved by AC3. Start searching ...\n")
 
-    def test_revised(self):
-        print()
-    #     sudoku_instance = Sudoku(easy1)
-    #     sudoku_instance.infer_assignment()
-
-    # print(type(sudoku_instance.neighbors[sudoku_instance.variables[0]].pop()))
-    # third_var = sudoku_instance.variables[2]
-    # print(third_var)
-    # print(sudoku_instance.curr_domains[sudoku_instance.variables[2]])
-    # random_neighbour = sudoku_instance.neighbors[third_var].pop()
-    # print(third_var)
-    # print(random_neighbour)
-    # print(revised(sudoku_instance, third_var, random_neighbour))
-
 
 if __name__ == '__main__':
     unittest.main()
