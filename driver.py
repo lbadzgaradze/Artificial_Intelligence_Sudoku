@@ -6,17 +6,18 @@ from backtrack import backtracking_search
 for puzzle in [easy1, harder1]:
     sudoku_instance = Sudoku(puzzle)  # construct a Sudoku problem
 
+    print("We having the following Sudoku puzzle to solve:", end="\n\n")
     sudoku_instance.display(sudoku_instance.infer_assignment())
-    print("\n")
-
+    print("\nStarting constraint propagation (AC3) algorithm.")
     AC3(sudoku_instance)
-    sudoku_instance.display(sudoku_instance.infer_assignment())
-    print(sudoku_instance.curr_domains)
+    print("AC3 algorithm was successfully completed.")
 
     if sudoku_instance.goal_test(sudoku_instance.curr_domains):
-        print("\nProblem was solved by AC3\n")
+        print("Problem was solved by AC3. Here is the solution:", end="\n\n")
+        sudoku_instance.display(sudoku_instance.infer_assignment())
+        print()
     else:
-        print("\nProblem was not solved by AC3. Start searching ...\n")
+        print("Problem was not solved by AC3. We should start searching ...")
         search_result = backtracking_search(sudoku_instance, mrv, lcv, mac)
         print("Search has been completed successfully.")
         if sudoku_instance.goal_test(search_result):
