@@ -1,4 +1,4 @@
-We having the following Sudoku puzzle to solve:
+We have the following Sudoku puzzle to solve:
 
 . . 3 | . 2 . | 6 . .
 9 . . | 3 . 5 | . . 1
@@ -28,7 +28,7 @@ Problem was solved by AC3. Here is the solution:
 8 1 4 | 2 5 3 | 7 6 9
 6 9 5 | 4 1 7 | 3 8 2
 
-We having the following Sudoku puzzle to solve:
+We have the following Sudoku puzzle to solve:
 
 4 1 7 | 3 6 9 | 8 . 5
 . 3 . | . . . | . . .
