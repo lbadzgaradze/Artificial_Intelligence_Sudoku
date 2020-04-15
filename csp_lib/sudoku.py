@@ -34,7 +34,8 @@ class Sudoku(CSP):
     >>> e = Sudoku(easy1)
 
     Method infer_assignment shows the puzzle with all of the variables
-    that are currently assigned.  Since we haven't inferred anything,
+    that are currently assi
+    gned.  Since we haven't inferred anything,
     this shows the initial puzzle assignments that are given in the problem.
     >>> e.display(e.infer_assignment())
     . . 3 | . 2 . | 6 . .

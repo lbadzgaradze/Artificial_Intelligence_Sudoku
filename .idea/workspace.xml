@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d056a9b-ef22-4ed6-a009-afaeff1c72fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtrack.py" beforeDir="false" afterPath="$PROJECT_DIR$/backtrack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constraint_prop.py" beforeDir="false" afterPath="$PROJECT_DIR$/constraint_prop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csp_lib/sudoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/csp_lib/sudoku.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_constraint_prop.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_constraint_prop.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../assignment 4/checkers-skeleton(1)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.test_constraint_prop">
+  <component name="RunManager" selected="Python.driver">
     <configuration name="driver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sudoku-for-students" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_constraint_prop" />
         <item itemvalue="Python.driver" />
+        <item itemvalue="Python.test_constraint_prop" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +119,12 @@
       <updated>1586652232455</updated>
       <workItem from="1586652238960" duration="8723000" />
       <workItem from="1586867202719" duration="685000" />
-      <workItem from="1586867900333" duration="28791000" />
+      <workItem from="1586867900333" duration="31326000" />
+      <workItem from="1586920519376" duration="1519000" />
+      <workItem from="1586922057845" duration="35000" />
+      <workItem from="1586922152659" duration="13000" />
+      <workItem from="1586922177742" duration="3292000" />
+      <workItem from="1586964100782" duration="2468000" />
     </task>
     <servers />
   </component>
@@ -133,60 +140,60 @@
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state x="589" y="293" key="FileChooserDialogImpl/0.0.1620.1080@0.0.1620.1080" timestamp="1586904774744" />
-    <state width="1617" height="492" key="GridCell.Tab.0.bottom" timestamp="1586916207305">
+    <state width="1622" height="203" key="GridCell.Tab.0.bottom" timestamp="1586966574944">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state width="1921" height="392" key="GridCell.Tab.0.bottom/0.0.1620.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1586877891062" />
-    <state width="1617" height="492" key="GridCell.Tab.0.bottom/0.0.1620.1080@0.0.1620.1080" timestamp="1586916207305" />
-    <state width="1617" height="492" key="GridCell.Tab.0.center" timestamp="1586916207305">
+    <state width="1622" height="203" key="GridCell.Tab.0.bottom/0.0.1620.1080@0.0.1620.1080" timestamp="1586966574944" />
+    <state width="1622" height="203" key="GridCell.Tab.0.center" timestamp="1586966574944">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state width="1921" height="392" key="GridCell.Tab.0.center/0.0.1620.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1586877891062" />
-    <state width="1617" height="492" key="GridCell.Tab.0.center/0.0.1620.1080@0.0.1620.1080" timestamp="1586916207305" />
-    <state width="1617" height="492" key="GridCell.Tab.0.left" timestamp="1586916207305">
+    <state width="1622" height="203" key="GridCell.Tab.0.center/0.0.1620.1080@0.0.1620.1080" timestamp="1586966574944" />
+    <state width="1622" height="203" key="GridCell.Tab.0.left" timestamp="1586966574944">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state width="1921" height="392" key="GridCell.Tab.0.left/0.0.1620.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1586877891062" />
-    <state width="1617" height="492" key="GridCell.Tab.0.left/0.0.1620.1080@0.0.1620.1080" timestamp="1586916207305" />
-    <state width="1617" height="492" key="GridCell.Tab.0.right" timestamp="1586916207305">
+    <state width="1622" height="203" key="GridCell.Tab.0.left/0.0.1620.1080@0.0.1620.1080" timestamp="1586966574944" />
+    <state width="1622" height="203" key="GridCell.Tab.0.right" timestamp="1586966574944">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state width="1921" height="392" key="GridCell.Tab.0.right/0.0.1620.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1586877891062" />
-    <state width="1617" height="492" key="GridCell.Tab.0.right/0.0.1620.1080@0.0.1620.1080" timestamp="1586916207305" />
-    <state width="1617" height="392" key="GridCell.Tab.1.bottom" timestamp="1586916203349">
+    <state width="1622" height="203" key="GridCell.Tab.0.right/0.0.1620.1080@0.0.1620.1080" timestamp="1586966574944" />
+    <state width="1617" height="392" key="GridCell.Tab.1.bottom" timestamp="1586922042387">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
-    <state width="1617" height="392" key="GridCell.Tab.1.bottom/0.0.1620.1080@0.0.1620.1080" timestamp="1586916203349" />
-    <state width="1617" height="392" key="GridCell.Tab.1.center" timestamp="1586916203349">
+    <state width="1617" height="392" key="GridCell.Tab.1.bottom/0.0.1620.1080@0.0.1620.1080" timestamp="1586922042387" />
+    <state width="1617" height="392" key="GridCell.Tab.1.center" timestamp="1586922042387">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
-    <state width="1617" height="392" key="GridCell.Tab.1.center/0.0.1620.1080@0.0.1620.1080" timestamp="1586916203349" />
-    <state width="1617" height="392" key="GridCell.Tab.1.left" timestamp="1586916203349">
+    <state width="1617" height="392" key="GridCell.Tab.1.center/0.0.1620.1080@0.0.1620.1080" timestamp="1586922042387" />
+    <state width="1617" height="392" key="GridCell.Tab.1.left" timestamp="1586922042387">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
-    <state width="1617" height="392" key="GridCell.Tab.1.left/0.0.1620.1080@0.0.1620.1080" timestamp="1586916203349" />
-    <state width="1617" height="392" key="GridCell.Tab.1.right" timestamp="1586916203349">
+    <state width="1617" height="392" key="GridCell.Tab.1.left/0.0.1620.1080@0.0.1620.1080" timestamp="1586922042387" />
+    <state width="1617" height="392" key="GridCell.Tab.1.right" timestamp="1586922042387">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
-    <state width="1617" height="392" key="GridCell.Tab.1.right/0.0.1620.1080@0.0.1620.1080" timestamp="1586916203349" />
+    <state width="1617" height="392" key="GridCell.Tab.1.right/0.0.1620.1080@0.0.1620.1080" timestamp="1586922042387" />
     <state x="370" y="-897" key="SettingsEditor" timestamp="1586867886007">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
     <state x="370" y="-897" key="SettingsEditor/0.0.1620.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1586867886007" />
     <state x="312" y="183" key="SettingsEditor/0.0.1620.1080@0.0.1620.1080" timestamp="1586656693216" />
-    <state x="596" y="-716" key="com.intellij.ide.util.TipDialog" timestamp="1586867903330">
-      <screen x="0" y="-1080" width="1920" height="1080" />
+    <state x="503" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1586964104146">
+      <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state x="596" y="-716" key="com.intellij.ide.util.TipDialog/0.0.1620.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1586867903330" />
     <state x="503" y="364" key="com.intellij.ide.util.TipDialog/0.0.1620.1080/0.-1080.1920.1080@0.0.1620.1080" timestamp="1586867211757" />
-    <state x="571" y="280" width="672" height="678" key="search.everywhere.popup" timestamp="1586916188668">
+    <state x="503" y="364" key="com.intellij.ide.util.TipDialog/0.0.1620.1080@0.0.1620.1080" timestamp="1586964104146" />
+    <state x="617" y="326" width="672" height="678" key="search.everywhere.popup" timestamp="1586966604616">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state x="623" y="-845" width="672" height="678" key="search.everywhere.popup/0.0.1620.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1586877886535" />
-    <state x="571" y="280" width="672" height="678" key="search.everywhere.popup/0.0.1620.1080@0.0.1620.1080" timestamp="1586916188668" />
+    <state x="617" y="326" width="672" height="678" key="search.everywhere.popup/0.0.1620.1080@0.0.1620.1080" timestamp="1586966604616" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sudoku_for_students$driver.coverage" NAME="driver Coverage Results" MODIFIED="1586904624456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/sudoku_for_students$test_constraint_prop.coverage" NAME="test_constraint_prop Coverage Results" MODIFIED="1586916203333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sudoku_for_students$driver.coverage" NAME="driver Coverage Results" MODIFIED="1586966574937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

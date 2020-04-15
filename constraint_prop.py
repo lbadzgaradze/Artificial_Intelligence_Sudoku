@@ -1,5 +1,6 @@
 '''
 Constraint propagation
+author: Levan Badzgaradze
 '''
 import copy
 from queue import Queue
@@ -24,8 +25,15 @@ def AC3(csp, queue=None, removals=None):
     # that participate in binary constraint
     q = Queue()
     if queue is not None:
-        # if queue is given as a parameter
-        q = queue
+        # if queue is given as a parameter as a list
+        if isinstance(queue, list):
+            for arc_constraint in queue:
+                q.put_nowait(arc_constraint)
+        # if queue is given as a parameter as a queue
+        elif isinstance(queue, Queue):
+            q = queue
+        else:
+            raise Exception("Unsupported type for second parameter of AC3")
     else:
         # if queue is not given as a parameter
         # generating every neighbour pair and enqueuing queue

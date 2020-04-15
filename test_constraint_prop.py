@@ -17,22 +17,15 @@ class Test(TestCase):
         for puzzle in [easy1, harder1]:
             s = Sudoku(puzzle)  # construct a Sudoku problem
             s.display(s.infer_assignment())
-
-            # vari = s.variables[0]
-            # print(vari)
-            # print(type(vari))
-            #
-            # neighbours = s.neighbors[vari]
-            # print(neighbours)
-            # print(type(neighbours))
-            #
-            # neighbour = neighbours.pop()
-            # print(neighbour)
-            # print(type(neighbour))
+            print("\n")
 
             AC3(s)
             s.display(s.infer_assignment())
-            print(s.goal_test(s.curr_domains))
+
+            if s.goal_test(s.curr_domains):
+                print("\nProblem was solved by AC3\n")
+            else:
+                print("\nProblem was not solved by AC3. Start searching ...\n")
 
     def test_revised(self):
         print()
